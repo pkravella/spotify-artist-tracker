@@ -6,8 +6,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const clientId = '9d4e840a964643a4baf5afd8469a9d0c';
-const clientSecret = 'd42b156dd0b44ec0ab57e43c399f588e';
+const clientId = '';
+const clientSecret = '';
 let accessToken = '';
 
 const getToken = async () => {
